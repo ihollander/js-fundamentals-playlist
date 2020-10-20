@@ -2,11 +2,35 @@
 
 This README is meant to compile all the resources in one place for your first weekend learning Javascript.
 
-Your primary source material for the weekend will be a series of Scrimba videos, which are linked in the sections below.
+Your primary source material for the weekend will be a series of [Scrimba videos](#scrimba-videos), which are linked in the sections below.
 
-There are also some recommended assignments you have access to on Canvas to give you some hands-on practice with the topics covered in the videos. The JS Fundaments assignments are mixed throughout several sections within the Phase 3 material; so you'll find notes below on which assignments to prioritize. 
+There are also some [recommended assignments](#recommended-assignments) you have access to on Canvas to give you some hands-on practice with the topics covered in the videos. The JS Fundaments assignments are mixed throughout several sections within the Phase 3 material; so you'll find notes below on which assignments to prioritize. 
 
 It's important to use the assignments to practice writing Javascript code, so don't skip out; but you also aren't expected to complete all the assignments. 
+
+## Scrimba Videos
+
+### Intro
+
+- [Intro][intro] - 3:28
+
+### Data Types
+
+- [Data Types: Primitives][data-types-primitive] - 7:30
+- [Data Types: Non-Primitives][data-types-non-primitive] - 12:33
+- [Variables][variables] - 5:09
+- [Object References][object-references] - 8:27
+- [Equality and Type Coercion][equality-and-coercion] - 10:38
+
+### Functions
+
+- [Intro to Functions][intro-to-functions] - 8:11
+- [Callback Functions][callbacks] - 15:36
+- [Scope][scope] - 13:17
+- [Closures][closures] - 16:25
+- [var and Hoisting][var-and-hoisting] - 11:54
+
+*NOTE*: Callbacks, scope, and closures are tricky concepts! Don't expect them to make total sense the first time you watch these videos. Watch them once to get acquainted, and come back to them when you've had more time with Javascript to reinforce your understanding.
 
 ## What You Should Know In Week 1
 
@@ -39,21 +63,7 @@ Your goal for the first weekend should be to familiarize yourself with these top
 
 It may seem like a lot, but most of these concepts should be familiar from Ruby (and from the Bootcamp Prep track before Mod 1).
 
-## Scrimba Videos
-
-### Intro
-
-- [Intro][intro] - 3:28
-
-### Data Types
-
-- [Data Types: Primitives][data-types-primitive] - 7:30
-- [Data Types: Non-Primitives][data-types-non-primitive] - 12:33
-- [Variables][variables] - 5:09
-- [Object References][object-references] - 8:27
-- [Equality and Type Coercion][equality-and-coercion] - 10:38
-
-Recommended Assignments:
+## Recommended Assignments
 
 - Manipulating the DOM
   - 📖 Introducing The DOM And Just Enough JavaScript
@@ -70,31 +80,22 @@ Recommended Assignments:
   - 📖 JS Fundamentals: Comparisons
   - 📖 JS Fundamentals: Conditionals
   - 📖 JS Fundamentals: Logical Operators
-
-### Functions
-
-- [Intro to Functions][intro-to-functions] - 8:11
-- [Callback Functions][callbacks] - 15:36
-- [Scope][scope] - 13:17
-- [Closures][closures] - 16:25
-- [var and Hoisting][var-and-hoisting] - 11:54
-
-*NOTE*: Callbacks, scope, and closures are tricky concepts! Don't expect them to make total sense the first time you watch these videos. Watch them once to get acquainted, and come back to them when you've had more time with Javascript to reinforce your understanding.
-
-Recommended Assignments:
-
-- 📖 Functions In JavaScript
-- ✏️ Fns As First Class Data: Do Behavior
-- ✏️ Fns As First Class Data: Array O' Functions
-- 📖 JS Fundamentals: Scope
-- 📖 JS Fundamentals: Scope Chain
-- ✏️ JS Fundamentals: Scope Lab
-- ✏️ JS Fundamentals: Lexical Scoping
-- 📖 JS Fundamentals: Hoisting
+- Recognizing JavaScript Events
+  - 📖 Functions In JavaScript
+  - ✏️ Fns As First Class Data: Do Behavior
+  - ✏️ Fns As First Class Data: Array O' Functions
+  - 📖 JS Fundamentals: Scope
+  - 📖 JS Fundamentals: Scope Chain
+  - ✏️ JS Fundamentals: Scope Lab
+  - ✏️ JS Fundamentals: Lexical Scoping
+  - 📖 JS Fundamentals: Hoisting
 
 ## Useful Resources
 
----
+- [MDN][mdn]
+- [AirBnB Style Guide][airbnb-style]
+- [JS Equality Table][js-equality]
+
 <!-- Scrimba -->
 [intro]: https://scrimba.com/scrim/cPDERWSE
 [data-types-primitive]: https://scrimba.com/scrim/cqp43buR
@@ -110,3 +111,6 @@ Recommended Assignments:
 [var-and-hoisting]: https://scrimba.com/scrim/cpMmB9uV
 
 <!-- Resources -->
+[mdn]: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+[airbnb-style]: https://github.com/airbnb/javascript
+[js-equality]: https://dorey.github.io/JavaScript-Equality-Table/
